@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: dev  #告诉服务器我们使用dev配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/jdbc
+    username: root
+    password: 123456
