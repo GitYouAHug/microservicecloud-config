@@ -13,7 +13,7 @@ spring:
   datasource:
      type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
      driver-class-name: com.mysql.cj.jdbc.Driver                # mysql驱动包
-     url: jdbc:mysql://localhost:3306/clouddb03?serverTimezone=UTC&useSSL=false   # 数据库名称
+     url: jdbc:mysql://localhost:3306/clouddb01?serverTimezone=UTC&useSSL=false   # 数据库名称
      username: root
      password: 123456
      dbcp2:
@@ -37,8 +37,8 @@ eureka:
       prefer-ip-address: true
 
 info:
-  app.name: ruisiyuan-microservicecloud-springcloudconfig01
-  company.name: www.ruisiyuan.cn
+  app.name: tjt-microservicecloud-springcloudconfig01
+  company.name: www.tjt.cn
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 ---
